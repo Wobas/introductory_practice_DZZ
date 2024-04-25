@@ -11,7 +11,7 @@ body{
 }
 
 .route_link {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: black;
 }
 

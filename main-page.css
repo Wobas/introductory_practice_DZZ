@@ -42,6 +42,10 @@ body {
     display: flex;
 }
 
+.sign_link {
+    color: black;
+}
+
 .table_border {
     background-color: #dcdcdcb8; 
     border: solid #AAA 1px;
