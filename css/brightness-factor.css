@@ -70,4 +70,10 @@ body{
 
 .brightness_image {
     max-width: 30.75rem;
+
+    transition: all 1s;
+}
+
+.brightness_image:hover {
+    transform: scale(1.7);
 }
