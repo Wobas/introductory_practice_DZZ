@@ -4,17 +4,29 @@ body{
     background: linear-gradient(to bottom, #b0fac7,#008dac,#011b58,#941e60);
 }
 
+* {
+    /* margin: 0;
+    padding: 0; */
+}
+
 .header {
     display: flex; 
+    position: sticky;
     align-items: center; 
     flex-direction: row;
+
+    top: 0;
+    background: rgba(172, 169, 169, 0.47);
+    backdrop-filter: blur(10px);
+    /* border-radius: 2rem; */
+    z-index: 1000;
 }
 
 .route_link {
     /* text-decoration: none; */
     color: black;
+    margin-left: 1rem;
 }
-
 .route_link_svg { 
     height: 1.2rem;
 }
@@ -58,6 +70,8 @@ body{
     text-align: center;
     align-content: center;
     align-self: center;
+
+    border: solid 2px black;
 }
 
 .table_row_name {

@@ -15,8 +15,8 @@
 }
 
 body {
-    min-width: 528px;
-    background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); 
+    min-width: 1026px;
+    background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #23a6d5, #e73c7e, #ee7752); 
     background-size: 400% 400%; 
     animation: gradient 10s ease infinite; 
     transform: translate3d(0, 0, 0);
@@ -36,6 +36,8 @@ body {
     font-size: 1.3rem;
 
     text-indent: 2rem;
+
+    text-shadow: 1px 1px 2px  white;
 }
 
 .sign {
