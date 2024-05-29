@@ -96,7 +96,7 @@ body {
 }
 
 .geometric_factor_link {
-    transition: 1s ease-in-out;
+    transition: 1s ease-in-out .5s;
 }
 
 .geometric_factor_link:hover {
